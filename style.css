@@ -1,0 +1,125 @@
+body {
+  margin: 0;  
+  font-family: Poppins;
+}
+
+.highlight-color {
+  color: rgb(111, 78, 255);
+}
+
+section {  
+  padding: 50px 0px;
+}
+
+.flexiable-container {
+  display: flex;
+}
+
+.half-width {
+  width:50%;
+}
+
+.one-third-space {
+  width: 33%;
+}
+
+.left-space {
+  padding-left: 10%;
+}
+
+.right-space {
+  padding-right: 10%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.vertical-line {
+  width: 4px;
+  height: 106px;
+  background-color: rgb(149, 0, 255);
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.banner-section  {
+  background-image: url(./images/shapes/shape-1.png);
+}
+
+.banner-image{
+  width: 450px;
+}
+
+.banner-title-container {
+  margin-bottom: 10px;
+}
+
+.banner-title {
+  display: inline-block;
+  font-size: 50px;
+  margin-bottom: 0;
+  font-family: 'Fjalla One', cursive;
+}
+
+.banner-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: rgb(149, 0, 255);
+  color: rgb(255, 255,  255);
+  padding: 12px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;  
+  display: inline-block;
+  margin-bottom: 10px;  
+}
+
+.mission-title {
+  font-size: 35px;
+  /* font-weight: 800; */
+  font-family: 'Fjalla One', cursive;   
+  margin-bottom: 40px;
+}
+
+.border-radius {
+  border-radius: 20px;
+}
+
+.mission-section-image {
+  width: 120px;
+}
+
+.mission-section-box {
+  padding: 30px 30px;
+}
+
+.mission-container {
+  background-color: #ffe4f7;
+  margin-right: 15px;
+}
+
+.vission-container {
+  background-color: #d6fdff;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+}
+
+.goals-container {
+  background-color: #e8ffe4;
+  margin-left: 15px;
+}
+
+.mission-section-title {
+  margin-top: 25px;
+  font-family: 'Fjalla One', cursive;    
+}
+
+.mission-section-description {
+  color: rgb(50, 50, 50);
+  margin-bottom: 0;
+}
