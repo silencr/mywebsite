@@ -7,7 +7,7 @@ body {
   color: rgb(111, 78, 255);
 }
 
-section {  
+section {
   padding: 50px 0px;
 }
 
@@ -21,6 +21,10 @@ section {
 
 .one-third-space {
   width: 33%;
+}
+
+.two-third-space {
+  width: 66%
 }
 
 .left-space {
@@ -44,11 +48,7 @@ section {
   border-radius: 10px;
 }
 
-.banner-section  {
-  background-image: url(./images/shapes/shape-1.png);
-}
-
-.banner-image{
+.banner-image {
   width: 450px;
 }
 
@@ -81,7 +81,6 @@ section {
 
 .mission-title {
   font-size: 35px;
-  /* font-weight: 800; */
   font-family: 'Fjalla One', cursive;   
   margin-bottom: 40px;
 }
@@ -122,4 +121,73 @@ section {
 .mission-section-description {
   color: rgb(50, 50, 50);
   margin-bottom: 0;
+}
+
+.limit-photo {
+  width: 100%;
+}
+
+.global-photo {
+  width: 100%;
+}
+
+.develop-section-description-container {
+  margin-left: 50px;
+}
+
+.develop-bold {
+  font-size: 40px;
+  font-family:'Fjalla One', cursive; 
+}
+
+.develop-paragraph {
+  font-size: 18px;
+}
+
+.develop-section {
+  background-image: url(./images/shapes/shape-1.png) ;
+  background-repeat: no-repeat ;
+  background-size: 200px;
+  background-position-y: 35%;
+  background-position-x: 5% ;
+}
+
+.global-photos {
+  width: 100%;
+}
+
+.global-bold {
+  font-size: 40px;
+  font-family:'Fjalla One', cursive;
+}
+
+.global-paragraph {
+  font-size: 18px;
+}
+
+.global-section {
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position-x: 97%;
+  background-position-y: 100%;
+}
+
+.hard-work {
+  background-color:black;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #e8ffe4;
+  margin-top: 50px;
+}
+
+.hard-bold {
+  font-size: 40px;
+  font-family:'Fjalla One', cursive;
+}
+
+.hard-mission {
+  font-size: 35px;
+  font-family: 'Fjalla One', cursive;  
 }
